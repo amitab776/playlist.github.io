@@ -1,0 +1,6 @@
+For beginning with the initial development let us proceed step by step:
+
+ create a table with three columns:(name of the table should be Library_UserVideos)
+  1.id-auto-increment
+  2.userid
+  3.videoids

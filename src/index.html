@@ -48,7 +48,7 @@
 
     <div layout="row" layout-xs="column" layout-gt-xs="column" layout-md="row" layout-gt-md="row" layout-align="center center">
         <!-- <div ng-include="'login/login.html'"></div> -->
-        <!-- <div layout-align="center center" layout="row" ng-controller="HomeCtrl as ctrl">
+        <div layout-align="center center" layout="row" ng-controller="HomeCtrl as ctrl">
             <md-card flex="60" layout="row" class="login-card">
                 <md-card-content flex="50" class="secondary-color" layout-align="center center">
                     <h4 class="align-center">MyTube</h4>
@@ -71,7 +71,7 @@
                         <md-icon class="material-icons"></md-icon>sign in</md-button>
                 </md-card-content>
             </md-card>
-        </div> -->
+        </div>
         <!-- <input type="text" ng-model="myurl" /> -->
         <div ng-controller="HomeCtrl as ctrl" ng-init="run()">
           <input type="text" ng-model="myid" />
@@ -118,8 +118,6 @@
         };
         firebase.initializeApp(config);
     </script>
-  
-  //youtube initialization
 
     <script>
         // 2. This code loads the IFrame Player API code asynchronously.
